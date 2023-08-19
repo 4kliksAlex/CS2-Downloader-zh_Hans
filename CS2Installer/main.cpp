@@ -45,7 +45,7 @@ int main(int argc, char* argv[]) {
 		puts("移动补丁安装完成！");
 	}
 
-	puts("是否安装来自oof.lv的游戏模组？（详见https://github.com/CS2-OOF-LV/CS2-Client）");
+	puts("（曾用于解锁地图，现已不需要）是否安装来自oof.lv的游戏模组？详见https://github.com/CS2-OOF-LV/CS2-Client");
 	puts("在键盘上按“Y”表示“是”或按“N”表示“否”");
 	std::cin >> wantsNextPatch;
 	for (char& c : wantsNextPatch) { /* make the anwser lowercase */
